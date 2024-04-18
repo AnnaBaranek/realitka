@@ -1,0 +1,35 @@
+ .header {
+    display: flex;
+
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  a {
+    text-transform: uppercase;
+  }
+  
+ nav a:hover {
+    color: black;
+  }
+
+ .header ul {
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+  display: flex; 
+}
+
+.header ul li {
+  margin-right: 25px; 
+}
+
+
+.header ul li a {
+  text-decoration: none; 
+  color: rgb(119, 119, 119);  
+}
+
+.header ul li a:hover {
+  color: black; 
+}
